@@ -25,7 +25,8 @@ measurably better over time.
 | [02 — Behavioral Engine](02-behavioral-engine.md) | The decision engine: goal taxonomy, habit state machine, miss-reason diagnostics, Four Laws prescription trees, Never-Miss-Twice protocol, intervention governor rules |
 | [03 — AI Architecture](03-ai-architecture.md) | Memory stores, context recipes, model tiering & cost, personality-as-constrained-range, safety stack, evals, the sensing loop |
 | [04 — UX & Flows](04-ux-flows.md) | Onboarding (with copy), daily loop, miss→comeback arc, chat rules, weekly review, notification gallery & anti-gallery |
-| [05 — MVP Scope & Metrics](05-mvp-scope-and-metrics.md) | What v1 proves, scope in/out, phased build with kill criteria, metrics tree, risk register, decisions needed |
+| [05 — MVP Scope & Metrics](05-mvp-scope-and-metrics.md) | What v1 proves, scope in/out, phased build with kill criteria, metrics tree, risk register, decision log |
+| [06 — Naming & Brand](06-naming-and-brand.md) | Name criteria, twenty candidates with collision notes, ranked shortlist, vetting checklist, the persona-vs-abstract brand fork |
 
 ## Design decisions snapshot (v1)
 
@@ -43,6 +44,9 @@ measurably better over time.
   cooldown-enforcing initiative governor (03 §8)
 - **Graduate loudly** — success ends the arc, not the relationship; graduations are counted
   separately from churn (01-C10)
+- **Decided 2026-07-18 (05 §6):** beachhead = Atomic Habits audience · platform = React
+  Native, iOS + Android together · Savage ships behind day-14 unlock · pricing $12–15/mo,
+  ~$79/yr. Open: name (doc 06) and the Phase 0 go/no-go
 
 ## Working agreement
 

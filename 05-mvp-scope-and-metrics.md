@@ -37,6 +37,7 @@ The MVP is the smallest product that can falsify these. Hence the scope below.
 | Weekly review | Doc 04 §6, 5 cards |
 | Safety stack | Doc 03 §5 complete — not negotiable, not deferrable |
 | Voice | OS dictation + voice-note why/miss-note only (doc 04 §8) |
+| Platform | React Native (Expo), single codebase, iOS + Android shipped together (D2 — decided). Operational note: stagger the *marketing* push per store so review/QA surprises surface on one storefront first |
 
 ### OUT (v1) — each with the reason
 
@@ -47,7 +48,6 @@ The MVP is the smallest product that can falsify these. Hence the scope below.
 | Accountability partners / social | Different product muscle; adds moderation surface; post-PMF |
 | Advanced analytics dashboards | The weekly review IS the analytics; dashboards are tracker-thinking |
 | AI voice replies | Cost + latency + novelty risk; text coach must earn love first |
-| Android (if resources force a choice) | iOS first: beachhead demographic + subscription willingness (decision D2 below) |
 | Learned models (risk scoring, bandits) | v2 — but their logging schema ships in v1 (doc 02 §9) |
 | Identity statement screens | Identity is earned output, not a feature (critique C6) |
 
@@ -121,16 +121,16 @@ enablement among flagged-sensitive users (must be zero — enforced, then verifi
 | R9 | **Dependence/ethics criticism** ("app engineered to be needed") | Medium | Graduation as a public, celebrated feature; governor invariant (no path to user except through budgeted governor); publish the coaching philosophy openly |
 | R10 | **Founder-scale trap:** hand-tuned prompts that don't generalize past 100 users | Medium | Phase 0 exists to mine scripts; eval suite freezes them as tests before scale |
 
-## 6. Decisions needed (founder sign-off)
+## 6. Decision log (founder sign-off)
 
-| # | Decision | Recommendation |
-|---|---|---|
-| D1 | Beachhead confirmation | 24–38 professionals, one self-improvement goal; "read Atomic Habits, still can't stick" wedge (critique C2) |
-| D2 | Platform | iOS-first, Android at Phase 3 exit |
-| D3 | Savage at launch? | Yes, behind day-14 unlock + full safety stack (critique C5) |
-| D4 | Pricing | ~$12–15/mo, ~$79/yr anchor, 14-day full-coach trial; free tier = tracker without the brain |
-| D5 | Name | Parking lot (doc 01); decide before TestFlight branding |
-| D6 | Phase 0 commitment | Strongly recommended — 3 weeks of manual coaching will save a quarter of wrong code |
+| # | Decision | Outcome | Status |
+|---|---|---|---|
+| D1 | Beachhead | Atomic Habits audience: 24–38 professionals, one self-improvement goal; "read the book, still can't stick" wedge (critique C2) | ✅ Decided 2026-07-18 |
+| D2 | Platform | React Native (Expo), single codebase — iOS + Android launched together. (Amends the doc's iOS-first recommendation; see §2 IN-table note on staggered marketing) | ✅ Decided 2026-07-18 |
+| D3 | Savage at launch | Yes — behind the day-14 trust unlock + full safety stack (critique C5) | ✅ Decided 2026-07-18 |
+| D4 | Pricing | $12–15/mo, ~$79/yr anchor, 14-day full-coach trial; free tier = tracker without the brain | ✅ Decided 2026-07-18 |
+| D5 | Name | Candidate list + shortlist in doc 06; availability vetting before final call. Branding workstream queued behind it (doc 06 §5) | 🔶 In progress |
+| D6 | Phase 0 commitment | Recommended: 2–3-week manual coaching pilot before build. Awaiting founder call | 🔶 Open |
 
 ## 7. Open questions for the next working session
 
