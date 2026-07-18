@@ -17,6 +17,12 @@ sensing loop that acts without being summoned, structured memory of the user's o
 commitments ("receipts"), and a logged intervention→outcome corpus that makes the coaching
 measurably better over time.
 
+**Sharpened by competitive research (doc 07):** proactive AI intervention already ships —
+but at two fixed extremes (Overlord = always harsh; Habit Coach AI/Finch = always gentle). No
+one occupies the **controllable middle**: a coach you can turn up or down, that reads your
+state and never kicks you when you're down. That — plus shame-free-but-serious comebacks and
+commitment memory that actually persists — is the open position.
+
 ## Reading order
 
 | Doc | What it is |
@@ -27,7 +33,8 @@ measurably better over time.
 | [03 — AI Architecture](03-ai-architecture.md) | Memory stores, context recipes, model tiering & cost, personality-as-constrained-range, safety stack, evals, the sensing loop |
 | [04 — UX & Flows](04-ux-flows.md) | Onboarding (with copy), daily loop, miss→comeback arc, chat rules, weekly review, notification gallery & anti-gallery |
 | [05 — MVP Scope & Metrics](05-mvp-scope-and-metrics.md) | What v1 proves, scope in/out, phased build with kill criteria, metrics tree, risk register, decision log |
-| [06 — Naming & Brand](06-naming-and-brand.md) | Name criteria, twenty candidates with collision notes, ranked shortlist, vetting checklist, the persona-vs-abstract brand fork |
+| [06 — Naming & Brand](06-naming-and-brand.md) | Name criteria, candidates (real-word + coined/ownable Round 2), collision blocklist, ranked shortlists, vetting checklist, the persona-vs-abstract brand fork |
+| [07 — Competitive Landscape](07-competitive-landscape.md) | 2025–2026 market map: AI-native coaches (Overlord, Habit Coach AI, Rocky, Actimate…), incumbent trackers, adjacent stakes/human models, Duolingo benchmark; positioning matrix, validated gaps, pricing/WTP, naming landscape, cautionary tales |
 
 ## Design decisions snapshot (v1)
 
