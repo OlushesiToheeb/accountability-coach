@@ -4,7 +4,8 @@ A mobile-first AI accountability partner: it turns a goal into a system, senses 
 slipping, diagnoses *why* (not just *that*), and intervenes — with an intensity you control.
 Built on the behavior-change science of Atomic Habits, without ever reading like the book.
 
-**Status:** PRD v1 — design phase. No code yet; the next step is Phase 0 (doc 05 §3).
+**Status:** PRD v1 — design phase. No code yet; next step is the Phase 1 build (doc 05 §3 —
+Phase 0 was skipped per decision D6).
 
 ## The one-paragraph thesis
 
@@ -46,7 +47,8 @@ measurably better over time.
   separately from churn (01-C10)
 - **Decided 2026-07-18 (05 §6):** beachhead = Atomic Habits audience · platform = React
   Native, iOS + Android together · Savage ships behind day-14 unlock · pricing $12–15/mo,
-  ~$79/yr. Open: name (doc 06) and the Phase 0 go/no-go
+  ~$79/yr · Phase 0 skipped — the Phase 1 beta is the script lab. Open: name (doc 06 —
+  unique/coined round in progress, competitive research underway)
 
 ## Working agreement
 

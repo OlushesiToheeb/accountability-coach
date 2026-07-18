@@ -96,8 +96,8 @@ an **abstract brand presence** (the app speaks as itself)? This decision shapes 
 choice (Vera vs. Rally), the icon, every line of copy, and how Savage mode is perceived
 (a character being savage reads as personality; an app being savage reads as policy).
 Leaning at time of writing: *abstract name + strongly consistent voice*, revisit character
-after Phase 0 shows how users talk about the coach ("it" vs. "he/she/they" in pilot
-transcripts is the tell).
+once early beta transcripts show how users talk about the coach ("it" vs. "he/she/they" is
+the tell).
 
 Then, in order: tone-of-voice guide (doc 03 §4 is the seed), icon + palette, store
 listing/screenshots narrative (beachhead-tuned per D1), landing page.

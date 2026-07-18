@@ -53,13 +53,14 @@ The MVP is the smallest product that can falsify these. Hence the scope below.
 
 ## 3. Build order (phases with kill/pivot criteria)
 
-**Phase 0 — Coach-in-the-loop prototype (2–3 weeks).** No app. 15–20 hand-recruited
-beachhead users, coaching delivered over WhatsApp/iMessage by the founder using the doc-02
-playbook verbatim (states, NMT, diagnosis scripts). *Purpose: validate the scripts and
-discover the messages that actually move people, before writing product code.*
-→ **Kill/pivot signal:** if hand-delivered, perfectly-timed coaching can't produce comebacks
-and week-3 retention with motivated early users, software won't either — revisit the
-playbook, not the tech stack.
+**Phase 0 — SKIPPED (decision D6, 2026-07-18).** The manual coach-in-the-loop pilot was cut
+on a founder insight the design should honor: part of this product's value is that people
+confide goals and failures to an AI *because it isn't a person*. A human-delivered WhatsApp
+pilot distorts exactly the psychology it would try to measure — pilots would perform for a
+watching founder (social desirability), then behave differently with the app.
+**Consequence:** script validation moves into Phase 1 — the first ~50 beta users are the
+script lab. Every coaching message variant logs its outcome from day one (the doc 02 §5
+experiment loop), and Phase 1's gates below now carry the burden Phase 0 would have carried.
 
 **Phase 1 — The loop (6–8 weeks).** Onboarding → habit → check-ins → state machine →
 NMT → basic chat (Coach style only) → governor + notifications. TestFlight, 50–100 users.
@@ -119,7 +120,7 @@ enablement among flagged-sensitive users (must be zero — enforced, then verifi
 | R7 | **Platform risk: general assistants ship habit coaching** | Medium | Speed + the three moats (sensing loop, corpus, relationship — critique C9). We can't out-model them; we can out-*loop* them |
 | R8 | **App review / health-adjacent scrutiny** | Medium | Sensitive-domain registry, crisis protocol, no medical claims, age gate 16+ |
 | R9 | **Dependence/ethics criticism** ("app engineered to be needed") | Medium | Graduation as a public, celebrated feature; governor invariant (no path to user except through budgeted governor); publish the coaching philosophy openly |
-| R10 | **Founder-scale trap:** hand-tuned prompts that don't generalize past 100 users | Medium | Phase 0 exists to mine scripts; eval suite freezes them as tests before scale |
+| R10 | **Coaching scripts ship untested on humans** (Phase 0 skipped, D6) | Medium→High | Phase 1 beta doubles as the script lab: intervention-outcome logging live from day one, message variants A/B'd on the first ~50 users, eval suite freezes winners as tests before scale. Watch Phase 1 gates closely — they now do Phase 0's job |
 
 ## 6. Decision log (founder sign-off)
 
@@ -130,7 +131,7 @@ enablement among flagged-sensitive users (must be zero — enforced, then verifi
 | D3 | Savage at launch | Yes — behind the day-14 trust unlock + full safety stack (critique C5) | ✅ Decided 2026-07-18 |
 | D4 | Pricing | $12–15/mo, ~$79/yr anchor, 14-day full-coach trial; free tier = tracker without the brain | ✅ Decided 2026-07-18 |
 | D5 | Name | Candidate list + shortlist in doc 06; availability vetting before final call. Branding workstream queued behind it (doc 06 §5) | 🔶 In progress |
-| D6 | Phase 0 commitment | Recommended: 2–3-week manual coaching pilot before build. Awaiting founder call | 🔶 Open |
+| D6 | Phase 0 commitment | **Skipped** — founder call: users confide in an AI precisely because it isn't a person; a human-run pilot distorts the psychology it would measure. Script validation folds into the Phase 1 beta (§3) | ✅ Decided 2026-07-18 |
 
 ## 7. Open questions for the next working session
 
