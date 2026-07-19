@@ -169,10 +169,12 @@ name needs to sit.
 
 ### 6e. Vetting results — App Store / Play scan (2026-07-19)
 
-> App/Play store scan completed. **The category is a naming gold rush — every evocative
-> dictionary word is already taken by a habit/coach app, usually a 2025–2026 vintage one.**
-> Of eight names scanned, exactly one is clear. (Trademark, domain, and handle checks still
-> owed on the survivor before it's final — this pass covers store/ASO collision only.)
+> App/Play store scan completed, then broadened. **The category is a naming gold rush — every
+> evocative dictionary word is already taken by a habit/coach app, usually a 2025–2026 vintage
+> one.** Of eight names scanned, **zero are clear.** ⚠ Correction (2026-07-19): Ballast was
+> first marked "clear" from a habit-vertical-only search; a broader search (domain + TM +
+> handles) found it's also taken — the narrow scope produced a false positive. Lesson logged
+> below: vet names against the *whole* namespace, not just the habit shelf.
 
 | Name | Verdict | Collision found |
 |---|---|---|
@@ -183,27 +185,26 @@ name needs to sit.
 | **Ancora** | ❌ Dead | "Ancora Health" — micro-habit behavioral-change coaching w/ coach messaging. Direct |
 | **Cornerman** | ❌ Dead | "CornerMan AI" — AI boxing coach (iOS + Play). Owns the term |
 | **Tend** | ❌ Dead | "tend." — gentle CBT habit companion w/ check-ins + habit tracker (ex-"Pocket CBT"). Direct |
-| **Ballast** | ✅ **Clear** | **No habit/productivity/accountability/focus app found by this name.** ASO field open |
+| **Ballast** | ❌ Dead | **iOS app "Ballast: Invest Wisely"** (AI portfolio strategies — same Class-9 namespace); **ballast.com** = $3B real-estate firm (owns the exact .com); **get-ballast.com / @get_ballast** = a *behavioral*-investing tool (uncomfortably adjacent); **Ballast Coaching Classes** owns @ballast_cc + coaching handles; plus RC-glider, bookkeeping, and rail-jobs apps all named Ballast. Broad namespace saturated |
 
-**Recommendation: lead with Ballast, and shift the backup strategy to genuinely *invented*
-words.** The scan's real lesson is that dictionary words — however clever the metaphor — are
-exhausted in this category; the only safe long-term ground is coined, non-dictionary brands
-(the Habitica/Actimate pattern) or a distinctive persona name (not Vera).
+**Recommendation: stop testing dictionary words — go *invented*.** The exercise is now
+conclusive: **all eight candidates are taken.** Every evocative English word in this space has
+been claimed in the 2025–2026 gold rush. The only safe long-term ground is a **coined,
+non-dictionary brand** (the Habitica / Actimate / Duolingo pattern) or a **distinctive persona
+name.** Continuing to test real words is negative-expected-value.
 
-- **Ballast** is the rare on-strategy + ownable hit. The metaphor is exact: the low, heavy
-  weight that keeps a ship steady and upright in rough water — it doesn't propel you (that's
-  you), it stops you capsizing. That is precisely the "steady presence, controllable, never
-  a whip" position (the deliberate anti-Overlord). Reads as calm strength. **Caveats to
-  weigh:** slightly heavy/technical, has a mundane homonym (electrical ballast), and the
-  say-it-on-a-podcast spelling is decent-not-perfect (some hear "ballist"). Net: strong lead,
-  worth the domain/TM confirmation.
-- **If Ballast doesn't land, go invented, not another dictionary word.** Candidate coinages to
-  vet next (unscanned): *Stedd* / *Steda* (from steadfast/steady), *Ancora*→*Ankora* (respell
-  to dodge Ancora Health), *Keelo*, *Habistead*. Coinage buys ownability at the cost of
-  meaning-on-first-glance — acceptable given the alternative is a dead-on-arrival name.
+- **Process lesson (so we don't repeat the Ballast miss):** vet every candidate against the
+  *whole* namespace up front — general web + domain + USPTO TESS + IG/TikTok/X handles — not
+  just the habit-app shelf. A name can be clear on the App Store's habit shelf and still be
+  owned by a $3B company one vertical over.
+- **Invented directions to generate & vet next (none tested yet):** pronounceable, ~2-syllable
+  coinages from the steady / again / keep-going roots — that evoke steadiness or return without
+  being a dictionary entry. A real generation round (with full-namespace vetting built in) is
+  the next naming task.
 - **Persona route still fully open** (doc §5/§6c) — but drop **Vera** (crowded); test Remi,
-  Ren, Sol, Juno, Wren instead.
+  Ren, Sol, Juno, Wren instead. Persona names live in a different namespace and dodge the
+  descriptor gold rush entirely.
 
-**Still owed on Ballast before final:** domain (getballast.app / ballast.coach / joinballast.
-com), IG/TikTok/X handles, USPTO classes 9 & 42, and the notification read-aloud test with
-doc-04 §7 copy ("Ballast: yesterday's gone. 2 minutes.").
+**Status:** naming is back to the drawing board — but with a sharp, validated brief: *coined or
+persona, not dictionary; vet the full namespace; signal steady-consented-presence, the
+anti-Overlord.*

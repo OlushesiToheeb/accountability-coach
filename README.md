@@ -56,10 +56,12 @@ commitment memory that actually persists — is the open position.
 - **Decided 2026-07-18 (05 §6):** beachhead = Atomic Habits audience · platform = React
   Native, iOS + Android together · Savage ships behind day-14 unlock · pricing $12–15/mo,
   ~$79/yr · Phase 0 skipped — the Phase 1 beta is the script lab.
-- **Naming (2026-07-19, doc 06 §6e):** store scan killed every dictionary shortlist name
-  (Cadence/Ember/Keel/Vera/Ancora/Tend all collide with live habit-coach apps). **Ballast** is
-  the one clear survivor — pending domain/handle/trademark confirmation. Backup strategy pivots
-  to invented coinages or a non-Vera persona name.
+- **Naming (2026-07-19, doc 06 §6e):** vetting killed **all eight** dictionary shortlist names
+  (Cadence/Ember/Keel/Vera/Ancora/Tend + Ballast — the last a corrected false-positive: it's
+  taken by an investing app, a $3B real-estate .com, and a behavioral-investing tool). Verdict:
+  **stop testing dictionary words — go coined/invented or a non-Vera persona name**, and vet the
+  *whole* namespace (domain + TM + handles), not just the habit shelf. Generation round is the
+  next naming task.
 - **Savage-mode reception (2026-07-19, doc 08):** research validates D3 — harsh tone works for
   a self-selecting few, decays as novelty, turns radioactive on body/weight. Design rule
   sharpened to "**receipts, not insults**"; Savage is tone (not Overlord-style enforcement).
