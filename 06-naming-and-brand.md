@@ -220,7 +220,7 @@ anti-Overlord.*
 
 | Candidate | Root / idea | Verdict |
 |---|---|---|
-| **Stedd** | steadfast / steady | ✅ **Clear** — no app, no company |
+| **Stedd** | steadfast / steady | ❌ **Taken** (missed on first pass) — see correction below |
 | **Kepta** | "kept" — promises kept | ⚠️ clear in software, but see deep vet |
 | **Pakt** | "pact" — the commitment | ⚠️ clear in habit-space, but see deep vet |
 | Ankora | anchor + *ancora* (again) | ❌ Ankora Software; Ankora on Play; ancorasoftware.com |
@@ -239,24 +239,31 @@ anti-Overlord.*
 
 | Name | Domain | Trademark | Operating brand? | Net |
 |---|---|---|---|---|
-| **Stedd** | `stedd.com` **available** (parked/for-sale, no active site) | none found (formal TESS check still owed) | none | ✅ **Clean across the board** — the only fully-open name. *Caveat: say-it-aloud spelling ambiguity (Sted / Stead / Stedd)* |
+| ~~**Stedd**~~ | `stedd.com` parked — BUT `stedd.io` (signage CRM) + `stedd.ai` (AI front office) are live | not checked deeply enough | **yes** — stedd.io, stedd.ai, STEED (Play) | ❌ **CORRECTED (2026-07-19): taken.** The `.com`-only check was too narrow *again*. `stedd.ai` is an AI agent that "follows up and reports each Monday" — accountability-adjacent, on the exact .ai domain we'd want. Dead |
 | **Kepta** | contested (naturesfix sells "Kepta" supplements) | **live UK TM** — KEPTA Ltd (supplements, class 5) | yes (supplements) | ⚠️ Different class → likely registrable for software, but not clean; health-adjacent overlap |
 | **Pakt** | `pakt.com` gone (brand uses paktbags.com) | **live US TM** — Pakt Inc. reg. 6161909 (luggage, class 18) | yes (travel-gear DTC) | ⚠️ Different class → possible, but real brand collision + clean domain gone |
 
-**Recommendation:** **Stedd is the only candidate that survives full vetting** — clean on the
-stores, `stedd.com` buyable, no company, no trademark. It's on-brief (steadfast = the steady,
-consented presence; the anti-Overlord). Its one real weakness is aural spelling ("is it Sted or
-Stead?"), which good wordmark/logo design can mitigate but not erase. Kepta and Pakt are
-*viable-but-shadowed* — registrable in class 9/42 despite the other-class marks, but each ships
-with an existing brand's baggage.
+**Corrected outcome: all three finalists are out or shadowed.** Stedd (dead — stedd.io /
+stedd.ai / STEED), Kepta (live UK supplements TM), Pakt (live US luggage TM + brand). **No
+clean survivor.**
 
-**Decision point for the founder:**
-1. **Commit to Stedd** (accept the spelling tradeoff; secure stedd.com + a formal class-9/42
-   TESS clearance search before spending on branding), **or**
-2. **Run one more coinage round** for a cleaner-spelled alternative (the generation space isn't
-   exhausted — just most 2-syllable words are), **or**
-3. **Reconsider the persona route** with more unusual names (Remi/Wren are taken; untested:
-   Idris, Roan, Wynn, Ansel, Juno, Sol).
+**⚠ Method limitation — the important lesson.** The WebSearch-based vetting produced a
+false-positive **twice** (Ballast, then Stedd) — both times a founder Google search caught live
+`.io` / `.ai` / store collisions the tool missed. Root cause: WebSearch is US-web-indexed and
+unreliable for (a) `.io`/`.ai` startup domains, (b) exact-match App/Play store listings, and
+(c) non-US brands. **Conclusion: this environment cannot definitively clear a name.** Automated
+search is fine for *generating* and *first-pass culling*, but every candidate must get a live
+manual check (Google + App Store + Play + domain registrar + USPTO TESS) before it's trusted —
+and that's fastest done in a browser, which the founder has and this agent effectively doesn't.
 
-Formal USPTO TESS + domain-registrar + handle confirmation is the final gate on whichever name
-wins — this pass used web search as a proxy and is strong signal, not legal clearance.
+**Revised naming strategy (given saturation + tooling limits):**
+- **Stop chasing short 2-syllable coined words** — three full rounds prove the entire class is
+  picked over. The survivors keep dying on `.io`/`.ai`.
+- **Shift to higher-entropy names** more likely to actually be free: (a) **distinctive
+  compounds / short phrases** ("in your corner" → a two-word mark), (b) **3+ syllable
+  coinages**, (c) **unexpected concrete nouns** from outside the productivity lexicon.
+- **Division of labor that actually works:** the agent produces a *ranked, rationale'd pool*
+  optimized for ownability; the founder runs the 30-second live check on the top few (as
+  already happening — and working). The agent should present names as *candidates to check*,
+  **not** as "clean."
+- Persona route still open but must be checked live too (Remi/Wren already died).

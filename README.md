@@ -56,13 +56,14 @@ commitment memory that actually persists — is the open position.
 - **Decided 2026-07-18 (05 §6):** beachhead = Atomic Habits audience · platform = React
   Native, iOS + Android together · Savage ships behind day-14 unlock · pricing $12–15/mo,
   ~$79/yr · Phase 0 skipped — the Phase 1 beta is the script lab.
-- **Naming (2026-07-19, doc 06 §6e–f):** all 8 dictionary names dead (incl. Ballast — a
-  corrected false-positive). Ran an invented/persona round (14 more candidates, full-namespace
-  vetting): most coined words are also taken. **One clean survivor — `Stedd`** (steadfast;
-  stedd.com available, no app/company/TM; caveat = aural spelling). Kepta & Pakt viable but
-  shadowed by other-class trademarks. Founder decision open: commit to Stedd, run another
-  coinage round, or an unusual persona name. Final gate = formal USPTO TESS + registrar/handle
-  check.
+- **Naming (2026-07-19, doc 06 §6e–f):** ~22 names tested (dictionary + coined + persona) —
+  **all taken.** Ballast and Stedd each looked clear on a narrow check, then a founder Google
+  search caught live `.io`/`.ai`/store collisions (two false-positives). **Lesson: this
+  environment can't definitively clear a name** — WebSearch misses `.io`/`.ai` startups + exact
+  store matches. Revised strategy: stop chasing short 2-syllable coinages (class is picked
+  over), shift to higher-entropy compounds / 3-syllable coinages / unexpected nouns, and clear
+  every candidate with a live browser check (founder-run). Naming is **not** on the build
+  critical path (needed at TestFlight branding, D5) — parkable.
 - **Savage-mode reception (2026-07-19, doc 08):** research validates D3 — harsh tone works for
   a self-selecting few, decays as novelty, turns radioactive on body/weight. Design rule
   sharpened to "**receipts, not insults**"; Savage is tone (not Overlord-style enforcement).
