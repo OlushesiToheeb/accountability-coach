@@ -4,8 +4,8 @@ A mobile-first AI accountability partner: it turns a goal into a system, senses 
 slipping, diagnoses *why* (not just *that*), and intervenes — with an intensity you control.
 Built on the behavior-change science of Atomic Habits, without ever reading like the book.
 
-**Status:** PRD v1 — design phase. No code yet; next step is the Phase 1 build (doc 05 §3 —
-Phase 0 was skipped per decision D6).
+**Status:** PRD v1 complete + technical build spec (doc 09). No code yet; next step is the
+Phase-1 skeleton (doc 09 §7). Phase 0 was skipped per decision D6; naming parked (doc 06 §6f).
 
 ## The one-paragraph thesis
 
@@ -36,6 +36,7 @@ commitment memory that actually persists — is the open position.
 | [06 — Naming & Brand](06-naming-and-brand.md) | Name criteria, candidates (real-word + coined/ownable Round 2), collision blocklist, ranked shortlists, vetting checklist, the persona-vs-abstract brand fork |
 | [07 — Competitive Landscape](07-competitive-landscape.md) | 2025–2026 market map: AI-native coaches (Overlord, Habit Coach AI, Rocky, Actimate, Keel, Cadence…), incumbent trackers, adjacent stakes/human models, Duolingo benchmark; positioning matrix, validated gaps, pricing/WTP, naming landscape, cautionary tales, market-convergence warning |
 | [08 — Savage Mode: Evidence & Guardrails](08-savage-mode-evidence.md) | Reception research on harsh-tone apps (Carrot Fit, Overlord, drill-sergeant coaches) → concrete Savage-mode guardrails; the "receipts not insults" rule; tone-harsh vs. behavior-harsh scope |
+| [09 — Technical Architecture](09-technical-architecture.md) | The build spec: stack (RN/Expo + NestJS + Postgres), data model, API surface, the coach-tick sensing loop, LLM orchestration & tiering, the Outbound Governor, and the Phase-1 build order mapping design → code |
 
 ## Design decisions snapshot (v1)
 
