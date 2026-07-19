@@ -16,7 +16,7 @@ accountability-coach/
 │                  (start at docs/README.md)
 ├── backend/       NestJS + TypeScript API (the coach brain, sensing loop, governor)
 ├── app/           React Native + Expo mobile app (iOS + Android)
-├── database/      Prisma schema + migrations (PostgreSQL)
+├── database/      Sequelize models + migrations (PostgreSQL)
 └── .claude/       AI development workflow — commands (interview → planner → implement) + skills
 ```
 
@@ -33,7 +33,7 @@ Each package is independent for now (npm workspaces wire them together at the ro
 
 ```bash
 # Database
-cd database && npm install && npx prisma generate
+cd database && npm install && npm run sync:dev      # dev; use npm run migrate for prod
 
 # Backend
 cd backend && npm install && npm run start:dev      # http://localhost:3000/health

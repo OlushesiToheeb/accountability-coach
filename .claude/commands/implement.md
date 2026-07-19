@@ -13,7 +13,7 @@ You are implementing one step from a plan (from `/planner`, in `docs/plans/`).
 1. **Pick the step.** Confirm which plan + step. Read the surrounding code so your change reads
    like the code already there (naming, structure, error handling).
 2. **Respect the architecture** (`docs/09`):
-   - Schema changes go in `database/prisma/schema.prisma` + a migration.
+   - Model changes go in `database/src/models/` + a Sequelize migration.
    - Nothing contacts the user except through the Outbound Governor (doc 03 §6).
    - State transitions stay in the pure state-machine function — the LLM writes words, never
      decides state (doc 09 §4).

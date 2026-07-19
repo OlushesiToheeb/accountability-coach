@@ -5,7 +5,7 @@ description: Turn a spec into a phased, doc-grounded implementation plan.
 # /planner — plan the implementation
 
 You are turning a spec (from `/interview`, in `docs/specs/`) into an implementation plan for
-this monorepo (`backend/` NestJS, `app/` Expo, `database/` Prisma).
+this monorepo (`backend/` NestJS, `app/` Expo, `database/` Sequelize).
 
 **Goal:** a plan an engineer (or `/implement`) can execute step by step. Not code.
 

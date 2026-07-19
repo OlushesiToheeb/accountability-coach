@@ -28,8 +28,7 @@ web-build/
 ios/
 android/
 
-# Prisma
-database/prisma/migrations/dev.db*
+# Sequelize (Postgres — nothing local to ignore)
 
 # Logs
 *.log

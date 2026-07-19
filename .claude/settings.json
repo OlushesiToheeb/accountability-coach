@@ -3,7 +3,7 @@
     "allow": [
       "Bash(npm run:*)",
       "Bash(npm install:*)",
-      "Bash(npx prisma:*)",
+      "Bash(npx sequelize-cli:*)",
       "Bash(npx expo:*)",
       "Bash(git status:*)",
       "Bash(git diff:*)",

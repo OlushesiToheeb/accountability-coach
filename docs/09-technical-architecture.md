@@ -16,7 +16,7 @@
 |---|---|---|
 | **Mobile** | **React Native + Expo** (D2); EAS Build; `expo-notifications`; `expo-router` | Cross-platform in one codebase (D2). Expo gives OTA updates + painless push. OS dictation covers voice (doc 04 §8) — no custom audio pipeline in v1 |
 | **Backend** | **NestJS (TypeScript)** | Same language as the app (shared types), and you already run it on clipscript. Alt: Fastify if you want lighter |
-| **DB** | **PostgreSQL** + **Prisma** (or Drizzle) | Relational fits the state machine, event stream, and ledger cleanly. No vectors needed in v1 — memory is *structured*, not RAG (doc 03 §1). Add `pgvector` only if v2 semantic recall needs it |
+| **DB** | **PostgreSQL** + **Sequelize** (`sequelize-typescript`) | Relational fits the state machine, event stream, and ledger cleanly. No vectors needed in v1 — memory is *structured*, not RAG (doc 03 §1). Add `pgvector` only if v2 semantic recall needs it |
 | **Jobs/queue** | **pg-boss** (Postgres-backed) | The nightly coach-tick + retries + scheduled sends. pg-boss avoids standing up Redis — one less moving part for a solo dev. Alt: BullMQ if you already want Redis |
 | **LLM** | **Anthropic Claude API**, zero-retention | Tiered (see §5). Haiku 4.5 for volume, Sonnet 5 for stakes, Opus 4.8 for the hardest tone/diagnosis calls |
 | **Push** | **Expo Push** → APNs/FCM | Simplest server-initiated push for a solo dev; revisit direct APNs/FCM only if you outgrow it |
@@ -29,8 +29,9 @@ private dependency of the governor module — nothing else imports it.
 
 ## 2. Data model (v1)
 
-Core tables (Prisma-ish; timestamps/`id` uuid implied). **The intervention + prescription logs
-ship in v1 even though learning is v2** — the corpus is the moat (doc 02 §9, doc 03 §8).
+Core tables (schema sketch; implemented as Sequelize models in `database/src/models/`;
+timestamps/`id` uuid implied). **The intervention + prescription logs ship in v1 even though
+learning is v2** — the corpus is the moat (doc 02 §9, doc 03 §8).
 
 ```
 User            id, tz, created_at,
