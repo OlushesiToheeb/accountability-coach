@@ -166,3 +166,44 @@ with doc-04 §7 copy). I can do the store/domain/handle spot-checks in a follow-
 usage limit resets — that reset also lets us pull first-hand reception data on harsh-tone apps,
 which is the input that finalizes both the Savage-mode design *and* how far from "Overlord" our
 name needs to sit.
+
+### 6e. Vetting results — App Store / Play scan (2026-07-19)
+
+> App/Play store scan completed. **The category is a naming gold rush — every evocative
+> dictionary word is already taken by a habit/coach app, usually a 2025–2026 vintage one.**
+> Of eight names scanned, exactly one is clear. (Trademark, domain, and handle checks still
+> owed on the survivor before it's final — this pass covers store/ASO collision only.)
+
+| Name | Verdict | Collision found |
+|---|---|---|
+| **Cadence** | ❌ Dead | "Cadence: Find Your Rhythm" — an AI coach w/ health-readiness + conversational check-ins (updated Apr 2026); a second "Cadence" streak/habit-stacking tracker; plus fitness-cadence apps. Multiple direct, recent |
+| **Ember** | ❌ Dead | "Ember Health: AI Coach", "Ember – Your AI Health Coach", "Ember: Streak & Habit Tracker" ("keep your spark burning" — our exact metaphor), "Ember – Break Your Phone Habit" ("pick an AI accountability partner"), + more. Saturated |
+| **Vera** | ❌ Avoid | Three live "Vera" AI coaches (money/tellvera, clinical/Vera Health, career). Not in habits specifically, but the persona is a popular AI-coach pick → high class-9/42 TM risk |
+| **Keel** | ❌ Dead | "Keel Habits / Keel: Daily AI Planner" **and** "Keel: Your Focus Anchor" (AI coach that breaks goals down). See doc 07 — Keel Habits also ships our comeback thesis |
+| **Ancora** | ❌ Dead | "Ancora Health" — micro-habit behavioral-change coaching w/ coach messaging. Direct |
+| **Cornerman** | ❌ Dead | "CornerMan AI" — AI boxing coach (iOS + Play). Owns the term |
+| **Tend** | ❌ Dead | "tend." — gentle CBT habit companion w/ check-ins + habit tracker (ex-"Pocket CBT"). Direct |
+| **Ballast** | ✅ **Clear** | **No habit/productivity/accountability/focus app found by this name.** ASO field open |
+
+**Recommendation: lead with Ballast, and shift the backup strategy to genuinely *invented*
+words.** The scan's real lesson is that dictionary words — however clever the metaphor — are
+exhausted in this category; the only safe long-term ground is coined, non-dictionary brands
+(the Habitica/Actimate pattern) or a distinctive persona name (not Vera).
+
+- **Ballast** is the rare on-strategy + ownable hit. The metaphor is exact: the low, heavy
+  weight that keeps a ship steady and upright in rough water — it doesn't propel you (that's
+  you), it stops you capsizing. That is precisely the "steady presence, controllable, never
+  a whip" position (the deliberate anti-Overlord). Reads as calm strength. **Caveats to
+  weigh:** slightly heavy/technical, has a mundane homonym (electrical ballast), and the
+  say-it-on-a-podcast spelling is decent-not-perfect (some hear "ballist"). Net: strong lead,
+  worth the domain/TM confirmation.
+- **If Ballast doesn't land, go invented, not another dictionary word.** Candidate coinages to
+  vet next (unscanned): *Stedd* / *Steda* (from steadfast/steady), *Ancora*→*Ankora* (respell
+  to dodge Ancora Health), *Keelo*, *Habistead*. Coinage buys ownability at the cost of
+  meaning-on-first-glance — acceptable given the alternative is a dead-on-arrival name.
+- **Persona route still fully open** (doc §5/§6c) — but drop **Vera** (crowded); test Remi,
+  Ren, Sol, Juno, Wren instead.
+
+**Still owed on Ballast before final:** domain (getballast.app / ballast.coach / joinballast.
+com), IG/TikTok/X handles, USPTO classes 9 & 42, and the notification read-aloud test with
+doc-04 §7 copy ("Ballast: yesterday's gone. 2 minutes.").

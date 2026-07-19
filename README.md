@@ -34,7 +34,8 @@ commitment memory that actually persists — is the open position.
 | [04 — UX & Flows](04-ux-flows.md) | Onboarding (with copy), daily loop, miss→comeback arc, chat rules, weekly review, notification gallery & anti-gallery |
 | [05 — MVP Scope & Metrics](05-mvp-scope-and-metrics.md) | What v1 proves, scope in/out, phased build with kill criteria, metrics tree, risk register, decision log |
 | [06 — Naming & Brand](06-naming-and-brand.md) | Name criteria, candidates (real-word + coined/ownable Round 2), collision blocklist, ranked shortlists, vetting checklist, the persona-vs-abstract brand fork |
-| [07 — Competitive Landscape](07-competitive-landscape.md) | 2025–2026 market map: AI-native coaches (Overlord, Habit Coach AI, Rocky, Actimate…), incumbent trackers, adjacent stakes/human models, Duolingo benchmark; positioning matrix, validated gaps, pricing/WTP, naming landscape, cautionary tales |
+| [07 — Competitive Landscape](07-competitive-landscape.md) | 2025–2026 market map: AI-native coaches (Overlord, Habit Coach AI, Rocky, Actimate, Keel, Cadence…), incumbent trackers, adjacent stakes/human models, Duolingo benchmark; positioning matrix, validated gaps, pricing/WTP, naming landscape, cautionary tales, market-convergence warning |
+| [08 — Savage Mode: Evidence & Guardrails](08-savage-mode-evidence.md) | Reception research on harsh-tone apps (Carrot Fit, Overlord, drill-sergeant coaches) → concrete Savage-mode guardrails; the "receipts not insults" rule; tone-harsh vs. behavior-harsh scope |
 
 ## Design decisions snapshot (v1)
 
@@ -54,8 +55,17 @@ commitment memory that actually persists — is the open position.
   separately from churn (01-C10)
 - **Decided 2026-07-18 (05 §6):** beachhead = Atomic Habits audience · platform = React
   Native, iOS + Android together · Savage ships behind day-14 unlock · pricing $12–15/mo,
-  ~$79/yr · Phase 0 skipped — the Phase 1 beta is the script lab. Open: name (doc 06 —
-  unique/coined round in progress, competitive research underway)
+  ~$79/yr · Phase 0 skipped — the Phase 1 beta is the script lab.
+- **Naming (2026-07-19, doc 06 §6e):** store scan killed every dictionary shortlist name
+  (Cadence/Ember/Keel/Vera/Ancora/Tend all collide with live habit-coach apps). **Ballast** is
+  the one clear survivor — pending domain/handle/trademark confirmation. Backup strategy pivots
+  to invented coinages or a non-Vera persona name.
+- **Savage-mode reception (2026-07-19, doc 08):** research validates D3 — harsh tone works for
+  a self-selecting few, decays as novelty, turns radioactive on body/weight. Design rule
+  sharpened to "**receipts, not insults**"; Savage is tone (not Overlord-style enforcement).
+- **⚠ Convergence:** the market is racing toward this concept — Keel Habits already ships a
+  "bounce-back rate over streaks" comeback mechanic. Defensibility must be execution depth
+  (governor, memory, safety, sensing loop), not the idea. Speed matters (doc 07 §0).
 
 ## Working agreement
 

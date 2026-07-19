@@ -36,6 +36,17 @@ unoccupied.
 Two more gaps survived contact with the data and are validated below: **shame-free-but-still-
 serious comeback** (§3) and **structured commitment memory quoted back** (§3).
 
+**⚠ Convergence warning (added 2026-07-19).** A store-level scan for our own naming shortlist
+incidentally revealed the market is racing toward this exact concept *fast*: **Keel Habits**
+now ships "resilience over streaks — bounce-back rate rather than consecutive days," which is
+our Never-Miss-Twice thesis (doc 01-C1) productized; **Cadence: Find Your Rhythm** does
+adaptive AI check-ins with a readiness score; Ember/Ancora/Actimate all ship Atomic-Habits AI
+coaching. The comeback idea is no longer uncontested. **Implication:** our defensibility can
+*not* rest on the idea — it must rest on execution depth the indies lack: the state-aware
+intensity governor, structured commitment memory that actually persists, the safety stack, and
+the sensing loop (doc 03). Idea-level differentiation has a ~6–12 month shelf life here; ship
+the moat, not the tagline. Speed matters more than the pre-research plan assumed.
+
 ---
 
 ## 1. The players
@@ -44,12 +55,15 @@ serious comeback** (§3) and **structured commitment memory quoted back** (§3).
 
 | Player | What it does | Pricing | Intervention model | Confidence |
 |---|---|---|---|---|
-| **Overlord** (overlord.app; iOS/Android/Mac) | "AI Accountability Partner." Monitors habits 24/7; blocks apps via Screen Time, calls you if you don't wake up, charges money if you disable restrictions, **texts your friends if you miss**. The hardcore/"savage" end, already live | Not captured (has stakes/charges) | **Proactive + punitive.** Fixed drill-sergeant register | Med (single search source; needs direct pull) |
+| **Overlord** (overlord.app; iOS/Android/Mac; **YC-backed**) | "AI Accountability Partner." Monitors habits 24/7 across devices; **blocks TikTok until you leave a location, bricks both devices at 11pm per sleep rules, charges up to $100 per detected violation**, calls you, texts your friends if you miss. The hardcore "enforcement" end, already live | Stakes/charges up to $100/violation | **Proactive + punitive enforcement.** Fixed drill-sergeant register. Reception: "the most powerful tool in this space, but only practical if you're comfortable trading privacy for enforcement" — surveillance trade-off caps adoption | ✅ **Med-High** (multiple sources incl. YC listing + review) |
 | **Habit Coach AI** (habitcoach.ai; Google Play since May 2025) | Proactive outbound: AI coach initiates daily check-ins by **phone call, text, or web chat**. Founder origin story: paid a stranger on Upwork to call him nightly at 10pm | **From $19/mo** (voice); 3-tier ladder up to weekly human calls; 7-day free trial | **Proactive + uniformly supportive.** No intensity control advertised | ✅ **High** (2 claims verified 3-0) |
 | **Rocky AI** (rocky.ai) | Socratic self-reflection coach; markets memory-based check-ins on prior commitments. Runs a "Build Atomic Habits with AI Coaching" page — **already courting our beachhead** | ~$29.50/mo (one page says $14.99 — inconsistent); 14-day trial | Session-based chat; **single fixed register** | Med (one hands-on blog review) |
 | **Actimate** (actimate.io) | "AI accountability partner" + ADHD planner. Atomic Habits-style identity-based habits + unlimited proactive check-ins. A Dec-2025 roundup's top pick | Not captured | **Proactive + deliberately gentle/shame-free** | Low-Med (one listicle) |
 | **Habits: AI Habit Coach** (App Store id6755751406) | AI **voice calls** as accountability; voice reminders; **Apple Health integration to auto-verify habits** (a real "receipts"/proof mechanic) | Not captured | Proactive voice; auto-verification | Low (store listing, second-hand) |
 | **HabitGPT by Shelpful** | ChatGPT-style habit buddy over **WhatsApp** | Not captured | Chat buddy | Low (mentioned in one roundup) |
+| **⚠ Keel Habits** (keelhabits.com; "Keel: Daily AI Planner") | Habit tracker + daily AI planner linking habits to outcomes — and explicitly markets **"resilience over streaks: measures bounce-back rate rather than consecutive days, the real skill that builds lasting habits."** A sibling app "Keel: Your Focus Anchor" adds an AI coach that challenges vague goals into specific/measurable | Free (iOS + web) | Planner + AI goal-breakdown | Med (store listing, direct) — **flagged: ships our comeback thesis** |
+| **Cadence: Find Your Rhythm** (App Store; upd. Apr 2026) | AI coach reading Apple Health for a daily readiness score that adapts plan intensity; conversational check-ins, 30-sec daily check-in, weekly insights | Free to try | Proactive + adaptive (health-data driven) | Med (store listing, direct) |
+| **Forfeit** (forfeit.app; iOS + Play) | Habit *contracts* with **financial stakes forfeited on misses** — enforcement lane alongside Overlord | Stakes-based | Money-stakes enforcement | Med (store listing, direct) |
 
 **Takeaways:** (1) the "AI habit coach" space is *crowded with indie entrants*, mostly
 2025-vintage; (2) **voice/phone calls** are the hot mechanic (Habit Coach AI, Rocky, Habits)
@@ -131,12 +145,14 @@ table stakes we must match, not where we win.
    complain its single Socratic register "kept asking coaching questions" during an emotional
    day. *No one* lets the user tune the dial or reads state to auto-adjust. This is doc 03 §4,
    and it is our clearest opening.
-2. **Shame-free comeback that still has stakes — OPEN.** The market is split into shamers
-   (streak-loss, financial penalties — and penalties "can feel punitive and worsen shame,"
-   which is literally what killed Pact) and the too-gentle (Finch, whose own reviews flag that
-   never penalizing = no real accountability). **Nobody holds the middle: forgiving on the
-   miss, serious about the comeback.** That's Never-Miss-Twice (doc 02 §7), and it's ours to
-   take.
+2. **Shame-free comeback that still has stakes — OPEN, but now contested.** The market is
+   split into shamers (streak-loss, financial penalties — and penalties "can feel punitive and
+   worsen shame," which is literally what killed Pact) and the too-gentle (Finch, whose own
+   reviews flag that never penalizing = no real accountability). **Nobody holds the middle:
+   forgiving on the miss, serious about the comeback.** That's Never-Miss-Twice (doc 02 §7).
+   ⚠ *Caveat: Keel Habits now markets "bounce-back rate over streaks" — the idea is landing
+   in-market. Our edge has to be the executed comeback conversation + state machine (doc 02),
+   not the slogan.*
 3. **Structured commitment memory quoted back — OPEN.** Rocky *markets* memory but forgot a
    user's gym schedule by day 4. The "receipts" mechanic (doc 03 §1) is differentiated
    precisely because the current crop can't hold commitments across sessions.
@@ -204,6 +220,7 @@ round (doc 06 §6, added) goes coined/ownable and is collision-checked against t
 | **stickK** | Pioneer that "feels built in 2008," honor-code verification, no proactive nudges, "falling apart" | Being first isn't a moat; the sensing loop is. Validates our whole premise |
 | **The AI-coach graveyard** | Zapier (Jul 2025) excluded all AI coaches, noted some **already shut down**, skeptical of the category | The market has seen thin GPT wrappers die. We must lead with the not-a-wrapper proof or inherit their skepticism |
 | **Duolingo guilt notifications** | Effective for retention but became a mocked meme | Guilt works and corrodes trust. Our anti-gallery (doc 04 §7) bans the register on purpose |
+| **Carrot Fit** (the insult app) | Snarky "fitness overlord" that calls users "meatbag"/"flabby." Sticky and credited with real 5–50 lb losses for *some* — **but** its own reviewers call it "a novelty" (decay), and it drew **activist backlash, calls to ban it, and "shames you into starving" ED-harm accusations** | The clearest evidence for the whole Savage-mode design: harsh tone works for a self-selecting few, decays as novelty, and turns radioactive on body/weight. Validates earned opt-in + hard sensitive-domain caps + "spice not meal" (doc 08) |
 
 ---
 
