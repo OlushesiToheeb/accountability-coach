@@ -56,12 +56,13 @@ commitment memory that actually persists — is the open position.
 - **Decided 2026-07-18 (05 §6):** beachhead = Atomic Habits audience · platform = React
   Native, iOS + Android together · Savage ships behind day-14 unlock · pricing $12–15/mo,
   ~$79/yr · Phase 0 skipped — the Phase 1 beta is the script lab.
-- **Naming (2026-07-19, doc 06 §6e):** vetting killed **all eight** dictionary shortlist names
-  (Cadence/Ember/Keel/Vera/Ancora/Tend + Ballast — the last a corrected false-positive: it's
-  taken by an investing app, a $3B real-estate .com, and a behavioral-investing tool). Verdict:
-  **stop testing dictionary words — go coined/invented or a non-Vera persona name**, and vet the
-  *whole* namespace (domain + TM + handles), not just the habit shelf. Generation round is the
-  next naming task.
+- **Naming (2026-07-19, doc 06 §6e–f):** all 8 dictionary names dead (incl. Ballast — a
+  corrected false-positive). Ran an invented/persona round (14 more candidates, full-namespace
+  vetting): most coined words are also taken. **One clean survivor — `Stedd`** (steadfast;
+  stedd.com available, no app/company/TM; caveat = aural spelling). Kepta & Pakt viable but
+  shadowed by other-class trademarks. Founder decision open: commit to Stedd, run another
+  coinage round, or an unusual persona name. Final gate = formal USPTO TESS + registrar/handle
+  check.
 - **Savage-mode reception (2026-07-19, doc 08):** research validates D3 — harsh tone works for
   a self-selecting few, decays as novelty, turns radioactive on body/weight. Design rule
   sharpened to "**receipts, not insults**"; Savage is tone (not Overlord-style enforcement).

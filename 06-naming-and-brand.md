@@ -208,3 +208,55 @@ name.** Continuing to test real words is negative-expected-value.
 **Status:** naming is back to the drawing board — but with a sharp, validated brief: *coined or
 persona, not dictionary; vet the full namespace; signal steady-consented-presence, the
 anti-Overlord.*
+
+### 6f. Invented-name generation round + deep vet (2026-07-19)
+
+> 14 coined/persona candidates generated and vetted across app stores + web + domain +
+> trademark + handles (full-namespace this time, per the §6e lesson). **Result: one clean
+> survivor (Stedd), two shadowed near-misses (Kepta, Pakt).** The gold rush extends into
+> coined names too — most invented words are already someone's startup.
+
+**First-pass collision scan (app / company / domain):**
+
+| Candidate | Root / idea | Verdict |
+|---|---|---|
+| **Stedd** | steadfast / steady | ✅ **Clear** — no app, no company |
+| **Kepta** | "kept" — promises kept | ⚠️ clear in software, but see deep vet |
+| **Pakt** | "pact" — the commitment | ⚠️ clear in habit-space, but see deep vet |
+| Ankora | anchor + *ancora* (again) | ❌ Ankora Software; Ankora on Play; ancorasoftware.com |
+| Vott / Votto | "vote" for your identity | ❌ Votto Digital; Microsoft VoTT; Vottly |
+| Emble / Embra | steady emblem | ❌ Emble (user research); Embra (acq. by Notion) |
+| Moora | moor a boat | ❌ muddy — Moora (industrial), Mora (AI data) |
+| Perga / Pergo | *pergere* (keep going) | ❌ Pergo (flooring); Perger (workspace app) |
+| Steda | steady | ❌ **live habit tracker** (iOS + Play) |
+| Vowa / Vowen | vow / commitment | ❌ Vowen (voice productivity); VOW (events) |
+| Annu / Anew | anew — comeback | ❌ "Anew" = Avon skincare (TM); no clean space |
+| Remi | persona | ❌ **"Remi — Reminders & Habit Coach"** (direct) + Remy AI |
+| Wren | persona | ❌ Wren AI (data); Wrenly AI (coaching) |
+| Kept / Onward / Keva / Sena | various | ❌ all live apps ("Kept — Accountability Pacts", "Onward" addiction coach, Keva/Kova software, Sena) |
+
+**Deep vet on the three survivors (domain · trademark · brand):**
+
+| Name | Domain | Trademark | Operating brand? | Net |
+|---|---|---|---|---|
+| **Stedd** | `stedd.com` **available** (parked/for-sale, no active site) | none found (formal TESS check still owed) | none | ✅ **Clean across the board** — the only fully-open name. *Caveat: say-it-aloud spelling ambiguity (Sted / Stead / Stedd)* |
+| **Kepta** | contested (naturesfix sells "Kepta" supplements) | **live UK TM** — KEPTA Ltd (supplements, class 5) | yes (supplements) | ⚠️ Different class → likely registrable for software, but not clean; health-adjacent overlap |
+| **Pakt** | `pakt.com` gone (brand uses paktbags.com) | **live US TM** — Pakt Inc. reg. 6161909 (luggage, class 18) | yes (travel-gear DTC) | ⚠️ Different class → possible, but real brand collision + clean domain gone |
+
+**Recommendation:** **Stedd is the only candidate that survives full vetting** — clean on the
+stores, `stedd.com` buyable, no company, no trademark. It's on-brief (steadfast = the steady,
+consented presence; the anti-Overlord). Its one real weakness is aural spelling ("is it Sted or
+Stead?"), which good wordmark/logo design can mitigate but not erase. Kepta and Pakt are
+*viable-but-shadowed* — registrable in class 9/42 despite the other-class marks, but each ships
+with an existing brand's baggage.
+
+**Decision point for the founder:**
+1. **Commit to Stedd** (accept the spelling tradeoff; secure stedd.com + a formal class-9/42
+   TESS clearance search before spending on branding), **or**
+2. **Run one more coinage round** for a cleaner-spelled alternative (the generation space isn't
+   exhausted — just most 2-syllable words are), **or**
+3. **Reconsider the persona route** with more unusual names (Remi/Wren are taken; untested:
+   Idris, Roan, Wynn, Ansel, Juno, Sol).
+
+Formal USPTO TESS + domain-registrar + handle confirmation is the final gate on whichever name
+wins — this pass used web search as a proxy and is strong signal, not legal clearance.
