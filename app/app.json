@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "Accountability Coach",
+    "slug": "accountability-coach",
+    "version": "0.0.1",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.accountabilitycoach.app"
+    },
+    "android": {
+      "package": "com.accountabilitycoach.app"
+    },
+    "extra": {
+      "apiUrl": "http://localhost:3000"
+    }
+  }
+}

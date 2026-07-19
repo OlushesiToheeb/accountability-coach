@@ -1,0 +1,260 @@
+// Accountability Coach — data model (docs/09 §2).
+// v1 ships the intervention + prescription logs even though learning is v2 —
+// the logged corpus is the moat (docs/02 §9, docs/03 §8).
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ─────────────────────────────────────────── User & style
+
+model User {
+  id               String    @id @default(uuid())
+  tz               String    @default("UTC")
+  styleContract    Json      @default("{}") // {allowedRange, current, easeUpUntil, history} (docs/03 §4)
+  quietHours       Json?
+  notifBudget      Int       @default(3) // outbound governor budget/day (docs/02 §6)
+  sensitivities    String[]  @default([]) // domain flags (docs/03 §5)
+  savageUnlockedAt DateTime? // gated ≥14 days + baseline (docs/08)
+  distressState    String?
+  createdAt        DateTime  @default(now())
+
+  goals         Goal[]
+  events        Event[]
+  commitments   Commitment[]
+  interventions Intervention[]
+  summaries     ConversationSummary[]
+  outbound      OutboundQueued[]
+  devices       DeviceToken[]
+}
+
+// ─────────────────────────────────────────── Goals, habits, milestones
+
+enum GoalShape {
+  habit
+  project
+  outcome
+  hybrid
+}
+
+model Goal {
+  id            String    @id @default(uuid())
+  userId        String
+  user          User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  rawGoal       String // user's words, verbatim
+  whyVerbatim   String // the load-bearing field — the receipts (docs/03 §1)
+  whyDate       DateTime  @default(now())
+  shape         GoalShape
+  domain        String?
+  sensitive     Boolean   @default(false)
+  laggingMetric Json? // outcome goals only
+  createdAt     DateTime  @default(now())
+
+  habits     Habit[]
+  milestones Milestone[]
+}
+
+enum HabitState {
+  calibration
+  building
+  wobbling
+  lapsed
+  dormant
+  comeback
+  consolidating
+  graduated
+}
+
+model Habit {
+  id                      String     @id @default(uuid())
+  goalId                  String
+  goal                    Goal       @relation(fields: [goalId], references: [id], onDelete: Cascade)
+  slot                    Int        @default(1) // ≤3, slot 2 gated on slot 1 reaching Building (docs/02 §1)
+  definition              String
+  implementationIntention String // "after [anchor], I [habit] at [place]" (docs/02 §1)
+  twoMinuteFloor          String // pre-negotiated at creation
+  schedule                Json // { days: [...], window }
+  state                   HabitState @default(calibration)
+  stateSince              DateTime   @default(now())
+  createdAt               DateTime   @default(now())
+
+  events        Event[]
+  prescriptions Prescription[]
+}
+
+model Milestone {
+  id         String  @id @default(uuid())
+  goalId     String
+  goal       Goal    @relation(fields: [goalId], references: [id], onDelete: Cascade)
+  title      String
+  targetWeek Int?
+  done       Boolean @default(false)
+}
+
+// ─────────────────────────────────────────── Events (the ground truth)
+
+enum EventType {
+  completion
+  floor
+  miss
+  snooze
+  dismiss
+  backfill
+}
+
+enum ReasonTap {
+  forgot
+  no_time
+  didnt_feel
+  too_hard
+  life
+}
+
+enum EventSource {
+  app
+  lockscreen
+  inferred
+}
+
+model Event {
+  id         String      @id @default(uuid())
+  habitId    String
+  habit      Habit       @relation(fields: [habitId], references: [id], onDelete: Cascade)
+  userId     String
+  user       User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  type       EventType
+  reasonTap  ReasonTap? // the diagnostic sensor (docs/02 §4)
+  note       String?
+  occurredAt DateTime
+  loggedAt   DateTime    @default(now())
+  source     EventSource @default(app)
+
+  @@index([habitId, occurredAt])
+}
+
+// ─────────────────────────────────────────── The commitment ledger (receipts)
+
+enum CommitmentKind {
+  why
+  promise
+  floor
+}
+
+model Commitment {
+  id           String         @id @default(uuid())
+  userId       String
+  user         User           @relation(fields: [userId], references: [id], onDelete: Cascade)
+  textVerbatim String // exact + dated, never paraphrased (docs/03 §1)
+  saidOn       DateTime       @default(now())
+  kind         CommitmentKind
+  source       String?
+}
+
+// ─────────────────────────────────────────── Diagnosis + intervention corpus
+
+enum Diagnosis {
+  law1 // make it obvious
+  law2 // make it attractive
+  law3 // make it easy
+  law4 // make it satisfying
+  none
+}
+
+model Prescription {
+  id               String    @id @default(uuid())
+  habitId          String
+  habit            Habit     @relation(fields: [habitId], references: [id], onDelete: Cascade)
+  diagnosis        Diagnosis
+  prescription     String
+  framedExperiment String?
+  reviewOn         DateTime?
+  outcome          Json? // { completionDelta, verdict } — written back on review (docs/02 §5)
+  createdAt        DateTime  @default(now())
+}
+
+enum InterventionLevel {
+  L1 // presence
+  L2 // nudge
+  L3 // question
+  L4 // challenge
+  L5 // savage
+}
+
+enum InterventionChannel {
+  push
+  inapp
+}
+
+enum ResponseType {
+  acted
+  snoozed
+  dismissed
+  silent
+}
+
+model Intervention {
+  id              String              @id @default(uuid())
+  userId          String
+  user            User                @relation(fields: [userId], references: [id], onDelete: Cascade)
+  habitId         String?
+  level           InterventionLevel
+  kind            String
+  channel         InterventionChannel @default(push)
+  context         Json?
+  openerText      String?
+  sentAt          DateTime            @default(now())
+  responded       ResponseType? // response-within-N-hours = the corpus + live quality signal
+  responseWithinH Float?
+
+  @@index([userId, sentAt])
+}
+
+// ─────────────────────────────────────────── Memory + outbound
+
+model ConversationSummary {
+  id            String   @id @default(uuid())
+  userId        String
+  user          User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  threadId      String
+  summary       String // ≤200 tokens (docs/03 §1)
+  lastExchanges Json?
+  createdAt     DateTime @default(now())
+}
+
+enum OutboundStatus {
+  queued
+  sent
+  suppressed // governor blocked it — logged with a reason
+  failed
+}
+
+// Every coach-initiated message passes through here (the governor choke point, docs/09 §6).
+model OutboundQueued {
+  id               String            @id @default(uuid())
+  userId           String
+  user             User              @relation(fields: [userId], references: [id], onDelete: Cascade)
+  level            InterventionLevel
+  payload          Json
+  deeplink         Json? // notification ↔ conversation-opener pair (docs/03 §2)
+  scheduledFor     DateTime
+  status           OutboundStatus    @default(queued)
+  suppressedReason String?
+  createdAt        DateTime          @default(now())
+
+  @@index([status, scheduledFor])
+}
+
+model DeviceToken {
+  id        String   @id @default(uuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  expoToken String   @unique
+  platform  String
+  active    Boolean  @default(true)
+  createdAt DateTime @default(now())
+}
